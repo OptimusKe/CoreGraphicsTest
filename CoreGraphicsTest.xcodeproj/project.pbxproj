@@ -24,6 +24,7 @@
 		0413371C19AF1A0E0070B984 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413371B19AF1A0E0070B984 /* Triangle.m */; };
 		0413371F19AF1DD50070B984 /* Arrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413371E19AF1DD50070B984 /* Arrow.m */; };
 		0413372219AF1E1C0070B984 /* Stick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413372119AF1E1C0070B984 /* Stick.m */; };
+		0413372519AF3D030070B984 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413372419AF3D030070B984 /* Coin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		0413371E19AF1DD50070B984 /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arrow.m; path = Draw/Arrow.m; sourceTree = "<group>"; };
 		0413372019AF1E1C0070B984 /* Stick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stick.h; path = Draw/Stick.h; sourceTree = "<group>"; };
 		0413372119AF1E1C0070B984 /* Stick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stick.m; path = Draw/Stick.m; sourceTree = "<group>"; };
+		0413372319AF3D030070B984 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coin.h; path = Draw/Coin.h; sourceTree = "<group>"; };
+		0413372419AF3D030070B984 /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Coin.m; path = Draw/Coin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				0413371E19AF1DD50070B984 /* Arrow.m */,
 				0413372019AF1E1C0070B984 /* Stick.h */,
 				0413372119AF1E1C0070B984 /* Stick.m */,
+				0413372319AF3D030070B984 /* Coin.h */,
+				0413372419AF3D030070B984 /* Coin.m */,
 			);
 			name = Draw;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				041336F519AF094F0070B984 /* ViewController.m in Sources */,
 				041336EF19AF094F0070B984 /* AppDelegate.m in Sources */,
 				0413371F19AF1DD50070B984 /* Arrow.m in Sources */,
+				0413372519AF3D030070B984 /* Coin.m in Sources */,
 				041336EB19AF094F0070B984 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +488,7 @@
 				0413370F19AF094F0070B984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0413371019AF09500070B984 /* Build configuration list for PBXNativeTarget "CoreGraphicsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				0413371219AF09500070B984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
