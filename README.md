@@ -10,4 +10,4 @@ CoreGraphics Practice
 1. Arrow
 2. Triangle
 3. Stick
-
+4. Coin
