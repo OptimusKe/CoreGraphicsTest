@@ -21,12 +21,12 @@
 		0413370019AF094F0070B984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041336E219AF094F0070B984 /* UIKit.framework */; };
 		0413370819AF094F0070B984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0413370619AF094F0070B984 /* InfoPlist.strings */; };
 		0413370A19AF094F0070B984 /* CoreGraphicsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413370919AF094F0070B984 /* CoreGraphicsTestTests.m */; };
-		0413371C19AF1A0E0070B984 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413371B19AF1A0E0070B984 /* Triangle.m */; };
-		0413371F19AF1DD50070B984 /* Arrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413371E19AF1DD50070B984 /* Arrow.m */; };
-		0413372219AF1E1C0070B984 /* Stick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413372119AF1E1C0070B984 /* Stick.m */; };
-		0413372519AF3D030070B984 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413372419AF3D030070B984 /* Coin.m */; };
-		043D263F19B41DA4001B6DE4 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D263E19B41DA4001B6DE4 /* Circle.m */; };
-		043FF04619B023710094B1D9 /* Heart.m in Sources */ = {isa = PBXBuildFile; fileRef = 043FF04519B023710094B1D9 /* Heart.m */; };
+		043D264D19B475EF001B6DE4 /* Arrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264219B475EF001B6DE4 /* Arrow.m */; };
+		043D264E19B475EF001B6DE4 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264419B475EF001B6DE4 /* Circle.m */; };
+		043D264F19B475EF001B6DE4 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264619B475EF001B6DE4 /* Coin.m */; };
+		043D265019B475EF001B6DE4 /* Heart.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264819B475EF001B6DE4 /* Heart.m */; };
+		043D265119B475EF001B6DE4 /* Stick.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264A19B475EF001B6DE4 /* Stick.m */; };
+		043D265219B475EF001B6DE4 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264C19B475EF001B6DE4 /* Triangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,18 +59,18 @@
 		0413370519AF094F0070B984 /* CoreGraphicsTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreGraphicsTestTests-Info.plist"; sourceTree = "<group>"; };
 		0413370719AF094F0070B984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0413370919AF094F0070B984 /* CoreGraphicsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsTestTests.m; sourceTree = "<group>"; };
-		0413371A19AF1A0E0070B984 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = Draw/Triangle.h; sourceTree = "<group>"; };
-		0413371B19AF1A0E0070B984 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Triangle.m; path = Draw/Triangle.m; sourceTree = "<group>"; };
-		0413371D19AF1DD50070B984 /* Arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Arrow.h; path = Draw/Arrow.h; sourceTree = "<group>"; };
-		0413371E19AF1DD50070B984 /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arrow.m; path = Draw/Arrow.m; sourceTree = "<group>"; };
-		0413372019AF1E1C0070B984 /* Stick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stick.h; path = Draw/Stick.h; sourceTree = "<group>"; };
-		0413372119AF1E1C0070B984 /* Stick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stick.m; path = Draw/Stick.m; sourceTree = "<group>"; };
-		0413372319AF3D030070B984 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coin.h; path = Draw/Coin.h; sourceTree = "<group>"; };
-		0413372419AF3D030070B984 /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Coin.m; path = Draw/Coin.m; sourceTree = "<group>"; };
-		043D263D19B41DA4001B6DE4 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Circle.h; path = Draw/Circle.h; sourceTree = "<group>"; };
-		043D263E19B41DA4001B6DE4 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Circle.m; path = Draw/Circle.m; sourceTree = "<group>"; };
-		043FF04419B023710094B1D9 /* Heart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Heart.h; path = Draw/Heart.h; sourceTree = "<group>"; };
-		043FF04519B023710094B1D9 /* Heart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Heart.m; path = Draw/Heart.m; sourceTree = "<group>"; };
+		043D264119B475EF001B6DE4 /* Arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrow.h; sourceTree = "<group>"; };
+		043D264219B475EF001B6DE4 /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arrow.m; sourceTree = "<group>"; };
+		043D264319B475EF001B6DE4 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		043D264419B475EF001B6DE4 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		043D264519B475EF001B6DE4 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		043D264619B475EF001B6DE4 /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
+		043D264719B475EF001B6DE4 /* Heart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart.h; sourceTree = "<group>"; };
+		043D264819B475EF001B6DE4 /* Heart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart.m; sourceTree = "<group>"; };
+		043D264919B475EF001B6DE4 /* Stick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stick.h; sourceTree = "<group>"; };
+		043D264A19B475EF001B6DE4 /* Stick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stick.m; sourceTree = "<group>"; };
+		043D264B19B475EF001B6DE4 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		043D264C19B475EF001B6DE4 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +130,7 @@
 		041336E419AF094F0070B984 /* CoreGraphicsTest */ = {
 			isa = PBXGroup;
 			children = (
-				0413371619AF0A9A0070B984 /* Draw */,
+				043D264019B475EF001B6DE4 /* Graphics */,
 				041336ED19AF094F0070B984 /* AppDelegate.h */,
 				041336EE19AF094F0070B984 /* AppDelegate.m */,
 				041336F019AF094F0070B984 /* Main.storyboard */,
@@ -171,23 +171,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0413371619AF0A9A0070B984 /* Draw */ = {
+		043D264019B475EF001B6DE4 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				0413371A19AF1A0E0070B984 /* Triangle.h */,
-				0413371B19AF1A0E0070B984 /* Triangle.m */,
-				0413371D19AF1DD50070B984 /* Arrow.h */,
-				0413371E19AF1DD50070B984 /* Arrow.m */,
-				0413372019AF1E1C0070B984 /* Stick.h */,
-				0413372119AF1E1C0070B984 /* Stick.m */,
-				0413372319AF3D030070B984 /* Coin.h */,
-				0413372419AF3D030070B984 /* Coin.m */,
-				043FF04419B023710094B1D9 /* Heart.h */,
-				043FF04519B023710094B1D9 /* Heart.m */,
-				043D263D19B41DA4001B6DE4 /* Circle.h */,
-				043D263E19B41DA4001B6DE4 /* Circle.m */,
+				043D264119B475EF001B6DE4 /* Arrow.h */,
+				043D264219B475EF001B6DE4 /* Arrow.m */,
+				043D264319B475EF001B6DE4 /* Circle.h */,
+				043D264419B475EF001B6DE4 /* Circle.m */,
+				043D264519B475EF001B6DE4 /* Coin.h */,
+				043D264619B475EF001B6DE4 /* Coin.m */,
+				043D264719B475EF001B6DE4 /* Heart.h */,
+				043D264819B475EF001B6DE4 /* Heart.m */,
+				043D264919B475EF001B6DE4 /* Stick.h */,
+				043D264A19B475EF001B6DE4 /* Stick.m */,
+				043D264B19B475EF001B6DE4 /* Triangle.h */,
+				043D264C19B475EF001B6DE4 /* Triangle.m */,
 			);
-			name = Draw;
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,14 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0413372219AF1E1C0070B984 /* Stick.m in Sources */,
-				0413371C19AF1A0E0070B984 /* Triangle.m in Sources */,
+				043D265119B475EF001B6DE4 /* Stick.m in Sources */,
 				041336F519AF094F0070B984 /* ViewController.m in Sources */,
-				043D263F19B41DA4001B6DE4 /* Circle.m in Sources */,
+				043D265219B475EF001B6DE4 /* Triangle.m in Sources */,
+				043D265019B475EF001B6DE4 /* Heart.m in Sources */,
+				043D264D19B475EF001B6DE4 /* Arrow.m in Sources */,
+				043D264F19B475EF001B6DE4 /* Coin.m in Sources */,
+				043D264E19B475EF001B6DE4 /* Circle.m in Sources */,
 				041336EF19AF094F0070B984 /* AppDelegate.m in Sources */,
-				0413371F19AF1DD50070B984 /* Arrow.m in Sources */,
-				0413372519AF3D030070B984 /* Coin.m in Sources */,
-				043FF04619B023710094B1D9 /* Heart.m in Sources */,
 				041336EB19AF094F0070B984 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
