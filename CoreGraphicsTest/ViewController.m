@@ -14,6 +14,7 @@
 #import "Coin.h"
 #import "Heart.h"
 #import "Circle.h"
+#import "AnimatedCircle.h"
 
 @interface ViewController ()
 
@@ -53,6 +54,13 @@
     Circle* circle = [Circle new];
     circle.frame = CGRectMake(100, 0, 100, 100);
     [self.view addSubview:circle];
+    
+    AnimatedCircle* animatedCircle = [AnimatedCircle new];
+    animatedCircle.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:animatedCircle];
+    
+    //auto repeat
+//    [NSTimer scheduledTimerWithTimeInterval:1 target:animatedCircle selector:@selector(scaleAnimation) userInfo:nil repeats:YES];
     
     
 }

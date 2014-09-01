@@ -27,6 +27,7 @@
 		043D265019B475EF001B6DE4 /* Heart.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264819B475EF001B6DE4 /* Heart.m */; };
 		043D265119B475EF001B6DE4 /* Stick.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264A19B475EF001B6DE4 /* Stick.m */; };
 		043D265219B475EF001B6DE4 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D264C19B475EF001B6DE4 /* Triangle.m */; };
+		043D265519B47F05001B6DE4 /* AnimatedCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D265419B47F05001B6DE4 /* AnimatedCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		043D264A19B475EF001B6DE4 /* Stick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stick.m; sourceTree = "<group>"; };
 		043D264B19B475EF001B6DE4 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
 		043D264C19B475EF001B6DE4 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		043D265319B47F05001B6DE4 /* AnimatedCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedCircle.h; sourceTree = "<group>"; };
+		043D265419B47F05001B6DE4 /* AnimatedCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedCircle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 				043D264A19B475EF001B6DE4 /* Stick.m */,
 				043D264B19B475EF001B6DE4 /* Triangle.h */,
 				043D264C19B475EF001B6DE4 /* Triangle.m */,
+				043D265319B47F05001B6DE4 /* AnimatedCircle.h */,
+				043D265419B47F05001B6DE4 /* AnimatedCircle.m */,
 			);
 			path = Graphics;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043D265519B47F05001B6DE4 /* AnimatedCircle.m in Sources */,
 				043D265119B475EF001B6DE4 /* Stick.m in Sources */,
 				041336F519AF094F0070B984 /* ViewController.m in Sources */,
 				043D265219B475EF001B6DE4 /* Triangle.m in Sources */,
