@@ -12,3 +12,5 @@ CoreGraphics Practice
 2. Triangle
 3. Stick
 4. Coin
+5. Heart
+6. Circle
