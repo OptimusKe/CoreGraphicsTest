@@ -12,6 +12,8 @@
 #import "Triangle.h"
 #import "Stick.h"
 #import "Coin.h"
+#import "Heart.h"
+#import "Circle.h"
 
 @interface ViewController ()
 
@@ -25,16 +27,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     
-    
+    //MARK::column 1
     Arrow* arrow = [Arrow new];
     arrow.frame = CGRectMake(0, 0, 100, 100);
     [self.view addSubview:arrow];
     
-    
     Triangle* triangle = [Triangle new];
     triangle.frame = CGRectMake(0, 100, 100, 100);
     [self.view addSubview:triangle];
-    
     
     Stick* stick = [Stick new];
     stick.frame = CGRectMake(0, 200, 100, 100);
@@ -43,6 +43,17 @@
     Coin* coin = [Coin new];
     coin.frame = CGRectMake(0, 300, 100, 100);
     [self.view addSubview:coin];
+    
+    Heart* heart = [Heart new];
+    heart.frame = CGRectMake(0, 400, 100, 100);
+    [self.view addSubview:heart];
+    
+    
+    //MARK::column 2
+    Circle* circle = [Circle new];
+    circle.frame = CGRectMake(100, 0, 100, 100);
+    [self.view addSubview:circle];
+    
     
 }
 

@@ -34,7 +34,7 @@
     //畫上圓
     CGContextMoveToPoint(ctx, CGRectGetMidX(rect) - radius, CGRectGetMinY(rect)  + radius);
 
-    //CGContextAddArcToPoint比較特別  目前先用CGContextAddArc
+    //單畫圓CGContextAddArc   兩點間夾角畫圓用CGContextAddArcToPoint
     CGContextAddArc(ctx, CGRectGetMidX(rect), radius, radius, M_PI, 0, 0);
     
     //右方直線
