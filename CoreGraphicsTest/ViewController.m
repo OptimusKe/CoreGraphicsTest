@@ -63,12 +63,43 @@
 //    [NSTimer scheduledTimerWithTimeInterval:1 target:animatedCircle selector:@selector(scaleAnimation) userInfo:nil repeats:YES];
     
     
+    
+    UIView* testView = [UIView new];
+    testView.frame = CGRectMake(200, 100, 100, 100);
+    [testView setBackgroundColor:[UIColor blueColor]];
+    [self.view addSubview:testView];
+    
+
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.translation.y"];
+    animation.duration = 1.0;
+    animation.autoreverses = YES;
+    animation.repeatCount = FLT_MAX;
+    animation.toValue = [NSNumber numberWithFloat:300.0];
+    [testView.layer addAnimation:animation forKey:@"transform.translation.y"];
+    
+    
+    animation = [CABasicAnimation animationWithKeyPath:@"transform.scale.x"];
+    animation.duration = 1.0;
+    animation.autoreverses = YES;
+    animation.repeatCount = FLT_MAX;
+    animation.fromValue = [NSNumber numberWithFloat:1.0];
+    animation.toValue   = [NSNumber numberWithFloat:0.5];
+    [testView.layer addAnimation:animation forKey:@"transform.scale.x"];
+    
+    UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    [testView addGestureRecognizer:tap];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void)handleTap:(id)sender
+{
+    NSLog(@"handleTap");
 }
 
 @end
