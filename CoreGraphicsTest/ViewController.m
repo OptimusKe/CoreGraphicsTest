@@ -15,6 +15,7 @@
 #import "Heart.h"
 #import "Circle.h"
 #import "AnimatedCircle.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()
 
@@ -70,21 +71,32 @@
     [self.view addSubview:testView];
     
 
-    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.translation.y"];
-    animation.duration = 1.0;
-    animation.autoreverses = YES;
-    animation.repeatCount = FLT_MAX;
-    animation.toValue = [NSNumber numberWithFloat:300.0];
-    [testView.layer addAnimation:animation forKey:@"transform.translation.y"];
+    //移動
+    CABasicAnimation *translation = [CABasicAnimation animationWithKeyPath:@"transform.translation.y"];
+    translation.fromValue=[NSNumber numberWithDouble:0.0];
+    translation.toValue = [NSNumber numberWithFloat:400.0];
     
     
-    animation = [CABasicAnimation animationWithKeyPath:@"transform.scale.x"];
-    animation.duration = 1.0;
-    animation.autoreverses = YES;
-    animation.repeatCount = FLT_MAX;
-    animation.fromValue = [NSNumber numberWithFloat:1.0];
-    animation.toValue   = [NSNumber numberWithFloat:0.5];
-    [testView.layer addAnimation:animation forKey:@"transform.scale.x"];
+    //縮放
+    CATransform3D scale = CATransform3DIdentity;
+    scale = CATransform3DMakeScale( 1.5, 1.5, 1.0);
+    
+    CABasicAnimation *scaleAnimation = [CABasicAnimation
+                                         animationWithKeyPath:@"transform"];
+    scaleAnimation.fromValue = [NSValue valueWithCATransform3D:CATransform3DIdentity];
+    scaleAnimation.toValue = [NSValue valueWithCATransform3D:(scale)];
+
+    
+    CAAnimationGroup *group = [CAAnimationGroup animation];
+    group.duration = 2.0;
+    group.repeatCount = FLT_MAX;
+    group.autoreverses = YES;
+    group.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    
+    //注意::先translation在scaleAnimation會只剩scale的動畫而已
+    group.animations = [NSArray arrayWithObjects: scaleAnimation,translation, nil];
+    [testView.layer addAnimation:group forKey:nil];
+    
     
     UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     [testView addGestureRecognizer:tap];

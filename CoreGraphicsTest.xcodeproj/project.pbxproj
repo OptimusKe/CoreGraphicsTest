@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040541CC19B86C9C00139AC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040541CB19B86C9C00139AC9 /* QuartzCore.framework */; };
 		041336DF19AF094F0070B984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041336DE19AF094F0070B984 /* Foundation.framework */; };
 		041336E119AF094F0070B984 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041336E019AF094F0070B984 /* CoreGraphics.framework */; };
 		041336E319AF094F0070B984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041336E219AF094F0070B984 /* UIKit.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040541CB19B86C9C00139AC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		041336DB19AF094F0070B984 /* CoreGraphicsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGraphicsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041336DE19AF094F0070B984 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		041336E019AF094F0070B984 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040541CC19B86C9C00139AC9 /* QuartzCore.framework in Frameworks */,
 				041336E119AF094F0070B984 /* CoreGraphics.framework in Frameworks */,
 				041336E319AF094F0070B984 /* UIKit.framework in Frameworks */,
 				041336DF19AF094F0070B984 /* Foundation.framework in Frameworks */,
@@ -122,6 +125,7 @@
 		041336DD19AF094F0070B984 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				040541CB19B86C9C00139AC9 /* QuartzCore.framework */,
 				041336DE19AF094F0070B984 /* Foundation.framework */,
 				041336E019AF094F0070B984 /* CoreGraphics.framework */,
 				041336E219AF094F0070B984 /* UIKit.framework */,
