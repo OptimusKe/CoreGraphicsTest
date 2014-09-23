@@ -14,3 +14,6 @@ CoreGraphics Practice
 4. Coin
 5. Heart
 6. Circle
+7. Tapable Circle
+8. Rotating Star
+9. Animating Rectangle
