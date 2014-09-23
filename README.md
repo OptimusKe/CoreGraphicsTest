@@ -4,7 +4,7 @@ CoreGraphicsTest
 CoreGraphics Practice
   
 ##Demo  
-![alt tag](http://i.imgur.com/KgDtJss.png)
+![alt tag](http://i.imgur.com/hMFNgtD.png)
 
 
 ##Shapes
