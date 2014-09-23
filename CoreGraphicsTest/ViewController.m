@@ -15,6 +15,7 @@
 #import "Heart.h"
 #import "Circle.h"
 #import "AnimatedCircle.h"
+#import "Star.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()
@@ -62,6 +63,19 @@
     
     //auto repeat
 //    [NSTimer scheduledTimerWithTimeInterval:1 target:animatedCircle selector:@selector(scaleAnimation) userInfo:nil repeats:YES];
+    
+    Star* star = [Star new];
+    star.frame = CGRectMake(100, 200, 100, 100);
+    [self.view addSubview:star];
+    
+    //rotate
+    CABasicAnimation *rotate;
+    rotate=[CABasicAnimation animationWithKeyPath:@"transform.rotation"];
+    rotate.fromValue = 0;
+    rotate.toValue = [NSNumber numberWithFloat:2 * M_PI];;
+    rotate.duration = 2.0f;
+    rotate.repeatCount = FLT_MAX;
+    [star.layer addAnimation:rotate forKey:nil];
     
     
     
